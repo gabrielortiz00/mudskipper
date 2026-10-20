@@ -1,0 +1,53 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / STM32H743 (SH74) 4.5.2 Jul 22 2025 / 14:57:05 (024f8e13d) MSP API: 1.46
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name CORVON743
+manufacturer_id CORV
+mcu_id 003500363333510932323931
+signature 
+
+# feature
+feature SERVO_TILT
+feature RANGEFINDER
+feature TELEMETRY
+feature LED_STRIP
+feature DISPLAY
+feature OSD
+feature CHANNEL_FORWARDING
+feature TRANSPONDER
+
+profile 0
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
